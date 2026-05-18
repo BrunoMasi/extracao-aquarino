@@ -1,6 +1,3 @@
-# extracao-aquarino
-Pipeline de extração e processamento de dados do Aquarino utilizando Python, pandas e requests.
-
 # Extração de Dados - Aquarino
 
 Script em Python para extração, organização e exportação de dados do sistema Aquarino.
