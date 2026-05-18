@@ -14,7 +14,7 @@ FIM = date(2026, 5, 14)
 
 
 N_DIAS = (FIM - INICIO).days
-TIMEOUT = (5, 30)
+TIMEOUT = (30)
 
 
 def buscar_json(params):
