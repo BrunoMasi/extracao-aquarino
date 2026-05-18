@@ -9,11 +9,12 @@ PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
 
 SENSORES = ["0", "1", "3", "4", "5", "6", "7", "8"]
 
-INICIO = date(2026, 3, 15)
-FIM = date(2026, 4, 15)
+INICIO = date(2026, 4, 14)
+FIM = date(2026, 5, 14)
 
-N_DIAS = 2
-TIMEOUT = 15
+
+N_DIAS = (FIM - INICIO).days
+TIMEOUT = (5, 30)
 
 
 def buscar_json(params):
